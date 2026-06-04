@@ -30,3 +30,4 @@ for protocol in range(6):
     data = pickle.dumps(person, protocol= protocol)
     h = hashlib.sha256(data).hexdigest()
     print(f"Protocol {protocol} : {h}")
+
