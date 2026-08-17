@@ -17,3 +17,5 @@ with open("hash_log.txt", "a") as f:
     f.write(f"determinism test run {run_id}: {h}\n")
 
 print(f"run {run_id}:", h)
+
+#what?
