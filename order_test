@@ -1,7 +1,0 @@
-import pickle, hashlib
-
-a = {"x": 1, "y": 2}
-b = {"y": 2, "x": 1}
-
-print(hashlib.sha256(pickle.dumps(a)).hexdigest())
-print(hashlib.sha256(pickle.dumps(b)).hexdigest())
